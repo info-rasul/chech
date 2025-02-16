@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
   font-family: 'Bebas Neue Cyrillic';
   src: url('./assets/fonts/Bebas Neue Cyrillic.ttf') format('truetype');
@@ -15,6 +16,7 @@ body {
   background: #222222;
   color: white;
   overflow-x: hidden;
+  font-family: Bebas Neue, sans-serif;
 }
 
 .wrapper.textures:before {
@@ -22,7 +24,7 @@ body {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: rgb(0 0 0 / 15%);
+  background: rgb(0 0 0 / 75%);
   z-index: -1;
 }
 

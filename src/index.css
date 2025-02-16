@@ -1,26 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
-  font-family: 'Bebas Neue Cyrillic';
-  src: url('./assets/fonts/Bebas Neue Cyrillic.ttf') format('truetype');
+  font-family: 'BebasNeue Cyrillic';
+  src: url('./assets/fonts/Bebas-Neue-Cyrillic.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'Bebas Neue';
+  font-family: 'BebasNeue';
   src: url('./assets/fonts/BebasNeue-Regular.ttf') format('truetype');
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: normal;
+}
+
 .number {
-  font-family: monospace;
+  font-family: "Inter", serif;
 }
 
 body {
   background: #222222;
   color: white;
   overflow-x: hidden;
-  font-family: Bebas Neue, sans-serif;
+  font-family: BebasNeue, sans-serif;
 }
 
 .wrapper.textures:before {
@@ -327,7 +332,7 @@ body {
   .banner9_desc {
     margin-top: 15px;
     font-size: 15px;
-    line-height: normal;
+    line-height: 27px;
   }
 
   .banner9_title {
@@ -382,7 +387,7 @@ body {
 }
 
 /*.bebas {
-  font-family: "Bebas Neue", serif;
+  font-family: "BebasNeue", serif;
   font-weight: 400;
   font-style: normal;
 }*/
@@ -409,7 +414,10 @@ body {
   .wrapper {
     display: flex;
     flex-direction: column;
+    background-image: url(/src/images/textures.png);
+    background-size: contain;
   }
+
 }
 
 html.has-scroll-smooth {

@@ -6,7 +6,7 @@ import React from 'react';
 
 function App() {
   return (
-    <div className='app font-bebas'>
+    <div className='app'>
     <Router>
       <Routes>
         <Route path='/' element={<Home />} />

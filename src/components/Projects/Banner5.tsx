@@ -7,7 +7,7 @@ import Banner55 from '../../images/banner4.jpg';
 const Banner5 = () => {
   return (
       <div
-          className="section banner5 px-[70px] pb-[61px]"
+          className="section banner5 px-[70px]"
           id="projects"
           data-scroll-section
           style={{ backgroundImage: `url(${Banner55})` }}
@@ -26,7 +26,7 @@ const Banner5 = () => {
                   </div>
                   <div className="banner5_block flex flex-col gap-[32px] w-[50%]">
                       <h1 className="banner5_title font-cyrillic text-[112px] text-black tracking-[-1px]">
-                          <span className="mr-[-16px]">{'>'}</span> 10
+                          <span className="mr-[-16px]">{'> 10'}</span>
                       </h1>
                       <p className="banner5_desc font-bebas block text-[16px] text-black leading-[180%] mt-[-55px] tracking-[0.64px]">
                           высокогорных аулов были стёрты с лица земли вместе с жителями,

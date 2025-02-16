@@ -2,7 +2,7 @@
     .app {
         scroll-snap-type: y mandatory;
         height: 100vh;
-        overflow-y: scroll;
+        /*overflow-y: scroll;*/
       }
 }
 /*2xl: left-[11%] 1000px: left-[85%]*/

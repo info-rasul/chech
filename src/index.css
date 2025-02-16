@@ -26,6 +26,15 @@ body {
   z-index: -1;
 }
 
+/*.button {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  align-items: end;
+  justify-content: end;
+  display: none;
+}*/
+
 .banner2 {
   width: 82vw!important;
 }
@@ -80,12 +89,7 @@ body {
 
   .banner9_title {
     font-size: 84px;
-    margin-top: 108px;
     line-height: 100px;
-  }
-
-  .banner9_desc {
-    margin-top: 30px;
   }
 
   .banner9_subtitle {
@@ -103,7 +107,7 @@ body {
   }
 
   .banner5_content {
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .banner5_block {
@@ -141,11 +145,12 @@ body {
   }
 
   .banner5 {
-    padding: 60px 20px;
+    padding: 0 20px;
   }
 
   .banner5_desc {
     width: 100%;
+    font-size: 14px;
   }
 
   .banner5_content {
@@ -153,7 +158,7 @@ body {
   }
 
   .banner5_title {
-    font-size: 72px;
+    font-size: 67px;
   }
 
   .banner9 {
@@ -162,9 +167,8 @@ body {
   }
 
   .banner9_title {
-    font-size: 63px;
-    margin-top: 115px;
-    line-height: 85px;
+    font-size: 60px;
+    line-height: 72px;
   }
 
   .banner9_subtitle {
@@ -175,9 +179,16 @@ body {
 
 @media screen and (max-width: 1000px) {
   .banner1_desc {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
+  .banner1_title {
+    text-align: center;
+  }
+
   .banner1_button {
     display: none;
   }
@@ -201,6 +212,10 @@ body {
 
   .banner5 {
     width: 100vw !important;
+  }
+
+  .banner5 {
+    padding: 40px 20px;
   }
 
   .banner9 {
@@ -272,10 +287,7 @@ body {
 
   .banner1_subtitle {
     font-size: 28px;
-  }
-
-  .banner1_desc {
-    padding:0 20px 150px 20px;
+    text-align: center;
   }
 
   .banner2 {
@@ -288,11 +300,16 @@ body {
 
   .banner2_title {
     font-size: 19px;
-    line-height: 35px;
+    line-height: 30px;
   }
 
   .banner2_desc {
     font-size: 16px;
+    line-height: 27px;
+  }
+
+  .banner9 {
+    padding: 20px;
   }
 
   .banner9_subtitle {
@@ -303,10 +320,11 @@ body {
   .banner9_desc {
     margin-top: 15px;
     font-size: 15px;
+    line-height: normal;
   }
 
   .banner9_title {
-    font-size: 44px;
+    font-size: 41px;
     margin-top: 25px;
     line-height: 55px;
   }

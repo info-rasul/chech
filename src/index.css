@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @font-face {
   font-family: 'Bebas Neue Cyrillic';
   src: url('./assets/fonts/Bebas Neue Cyrillic.ttf') format('truetype');
@@ -11,9 +11,13 @@
   src: url('./assets/fonts/BebasNeue-Regular.ttf') format('truetype');
   font-weight: normal;
 }
-
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+  font-weight: normal;
+}
 .number {
-  font-family: monospace;
+  font-family: Inter, serif;
 }
 
 body {
@@ -409,6 +413,7 @@ body {
   .wrapper {
     display: flex;
     flex-direction: column;
+    background-size: contain;
   }
 }
 

@@ -12,6 +12,10 @@
   font-weight: normal;
 }
 
+.number {
+  font-family: monospace;
+}
+
 body {
   background: #222222;
   color: white;
@@ -252,7 +256,7 @@ body {
 @media screen and (max-width: 700px) {
   .banner1_title {
     font-size: 70px;
-    line-height: 90px;
+    line-height: 64px;
   }
 
   .banner1_subtitle {
@@ -290,6 +294,7 @@ body {
   .banner1_subtitle {
     font-size: 28px;
     text-align: center;
+    margin-bottom: 35px;
   }
 
   .banner2 {
@@ -316,7 +321,7 @@ body {
 
   .banner9_subtitle {
     font-size: 18px;
-    line-height: 31.5px;
+    line-height: 25px;
   }
 
   .banner9_desc {

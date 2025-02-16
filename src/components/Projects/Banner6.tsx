@@ -16,8 +16,10 @@ const Banner6 = () => {
           </h1>
           <p className="banner2_desc font-bebas text-[#A2A2A2] text-[20px] tracking-[1.25px] leading-[32px]">
             Депортация проводилась в рамках жесточайших издержек: В дощатые двухосные вагоны,
-            площадью 17,9 м2, и вместимостью 28-32 человека загружали по 100–150 человек.
-            Было отправлено 180 эшелонов с общим количеством выселяемых 493 269 человек.
+            площадью <span className="number">17,9 м2</span>, и вместимостью <span className="number">28-32 </span>
+            человека загружали по <span className="number">100–150</span> человек. Было отправлено
+            <span className="number"> 180 </span> эшелонов с общим количеством выселяемых
+            <span className="number"> 493 269</span> человек.
           </p>
         </div>
       </div>

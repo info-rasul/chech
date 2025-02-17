@@ -16,9 +16,6 @@
   src: url('./assets/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
   font-weight: normal;
 }
-.number {
-  font-family: Inter, serif;
-}
 
 body {
   background: #222222;
@@ -73,6 +70,10 @@ body {
   width: 87.3vw!important;
 }
 
+.banner2_desc, .banner5_desc {
+  font-family: Inter, serif;
+}
+
 
 /*Banner media*/
 /*@media screen and (max-width:1597px) {
@@ -113,7 +114,12 @@ body {
   }
 
   .banner1_title {
-    font-size: 150px;
+    font-size: 110px;
+    line-height: 1;
+  }
+
+  .banner1_subtitle {
+    margin-bottom: 60px;
   }
 
   .banner5_content {

@@ -16,7 +16,7 @@ const Banner2 = () => {
             Чечено-Ингушской АССР в Казахскую и Киргизскую ССР. Операция проводилась до
             <span className="text-[red]"> 9 марта 1944 года.</span>
           </p>
-          <p className="banner2_desc  text-[#A2A2A2] text-[20px] tracking-[.92px] leading-[32px]">
+          <p className="banner2_desc text-[#A2A2A2] text-[20px] tracking-[.92px] leading-[32px]">
             Судьбу целых народов на последующие <span className="number">20 </span>
             лет решил лишь один указ о ликвидации
             Чечено-Ингушской АССР. Чеченцев и ингушей стали выселять не только с их исторической родины,

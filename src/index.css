@@ -11,6 +11,16 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/Inter-Light-BETA.otf') format('truetype');
+  font-weight: normal;
+}
+
+.banner2_desc, .banner5_desc {
+  font-family: 'Inter';
+}
+
 .number {
   font-family: monospace;
 }

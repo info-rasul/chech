@@ -18,7 +18,7 @@ const Banner5 = () => {
                       <h1 className="banner5_title font-cyrillic text-[112px] text-black tracking-[-1px]">
                           100 <span className="text-[48px] tracking-[3px]">тыс.</span>
                       </h1>
-                      <p className="banner5_desc font-bebas block text-[16px] text-black leading-[180%] mt-[-55px] tracking-[0.64px]">
+                      <p className="banner5_desc font-inter block text-[16px] text-black leading-[180%] mt-[-55px] tracking-[0.64px]">
                           военнослужащих участвовали в осуществлении депортации,
                           ещё примерно столько же были приведены в боевую готовность в соседних регионах.
                           Депортация проводилась вооружённым способом и преимущественно насильственными методами.
@@ -28,7 +28,7 @@ const Banner5 = () => {
                       <h1 className="banner5_title font-cyrillic text-[112px] text-black tracking-[-1px]">
                           <span className="mr-[-16px]">{'> 10'}</span>
                       </h1>
-                      <p className="banner5_desc font-bebas block text-[16px] text-black leading-[180%] mt-[-55px] tracking-[0.64px]">
+                      <p className="banner5_desc font-inter block text-[16px] text-black leading-[180%] mt-[-55px] tracking-[0.64px]">
                           высокогорных аулов были стёрты с лица земли вместе с жителями,
                           поскольку в данных местностях депортацию провести было сложно.
                           Впоследствии советская власть будет отрицать не только описываемые преступления,
@@ -41,7 +41,7 @@ const Banner5 = () => {
                       <h1 className="banner5_title font-cyrillic text-[112px] text-black">
                           500–650 <span className="text-[48px] tracking-[3px]">тыс.</span>
                       </h1>
-                      <p className="banner5_desc font-bebas text-[16px] text-black leading-[180%] mt-[-55px] tracking-[0.64px]">
+                      <p className="banner5_desc font-inter text-[16px] text-black leading-[180%] mt-[-55px] tracking-[0.64px]">
                           чеченцев и ингушей было выселено с территории Чечено-Ингушской АССР.
                           Впоследствии Чечено-Ингушская АССР была упразднена,
                           а на её территории создана Грозненская область.
@@ -51,7 +51,7 @@ const Banner5 = () => {
                       <h1 className="banner5_title font-cyrillic text-[112px] text-black tracking-[-1px]">
                           100/23 <span className="text-[48px] tracking-[3px]">тыс.</span>
                       </h1>
-                      <p className="banner5_desc font-bebas block text-[16px] text-black leading-[180%] mt-[-52px] tracking-[0.64px]">
+                      <p className="banner5_desc font-inter block text-[16px] text-black leading-[180%] mt-[-52px] tracking-[0.64px]">
                           чеченцев/ингушей погибли в ходе выселения и первые годы после него,
                           то есть примерно каждый четвёртый из обоих народов.
                       </p>

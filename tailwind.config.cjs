@@ -9,6 +9,7 @@ module.exports = {
       fontFamily: {
         'bebas': ['Bebas Neue', 'sans-serif'],
         'cyrillic': ['Bebas Neue Cyrillic', 'sans-serif'],
+        'inter': ['Inter-Light-BETA', 'sans-serif'],
       },
     },
   },

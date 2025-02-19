@@ -8,17 +8,17 @@ const Banner4 = () => {
           id="projects"
           data-scroll-section
       >
-        <div className="banner2_content h-[100vh] flex flex-col justify-center  gap-[56px]">
-          <p className="banner2_title font-cyrillic text-[54px] uppercase tracking-[.28px] leading-[61.7px] w-[846px] mt-[-57px]">
-            <span className="text-[red]">21 февраля 1944 года</span> Берия издал приказ по
-            НКВД о депортации чечено-ингушского населения и довел его до руководства республики и
+        <div className="banner2_content h-[100vh] flex flex-col justify-center  gap-[52px]">
+          <p className="banner2_title font-cyrillic text-[#F1EDDF] text-[52px] uppercase tracking-[1.05px] leading-[120%] mt-[-62px]">
+            <span className="text-[red]">21 февраля 1944 года</span> Берия издал приказ<br/> по
+            НКВД о депортации чечено-ингушского<br/> населения и довел его до руководства<br/> республики и
             высших духовных лидеров.
           </p>
-          <p className="banner2_desc font-inter text-[#A2A2A2] text-[20px] tracking-[.83px] leading-[32px] w-[928px]">
-            Из доклада Берии: «Было доложено председателю СНК Чечено-Ингушской АССР Моллаеву
+          <p className="banner2_desc font-inter text-[#A2A2A2] text-[20px] tracking-[-0.07px] leading-[160%]">
+            Из доклада Берии: «Было доложено председателю СНК Чечено-Ингушской АССР Моллаеву<br/>
             о решении правительства о выселении чеченцев и ингушей и о мотивах, которые легли в
-            основу этого решения. Моллаев после моего сообщения прослезился, но взял себя в руки
-            и обещал выполнить все задания, которые ему будут даны в связи с выселением.»
+            основу<br/> этого решения. Моллаев после моего сообщения прослезился, но взял себя в руки
+            и обещал<br/> выполнить все задания, которые ему будут даны в связи с выселением.»
           </p>
         </div>
       </div>

@@ -9,7 +9,7 @@ function App() {
     <div className='app font-bebas'>
     <Router>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/land' element={<Home />} />
       </Routes>
     </Router>
   </div>

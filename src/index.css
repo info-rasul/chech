@@ -204,7 +204,8 @@ body {
   }
 
   .banner1_button {
-    display: none;
+    width: 62px;
+    height: 90px;
   }
   .banner2 {
     width: 100vw!important;
@@ -269,6 +270,11 @@ body {
 
   .banner1_subtitle {
     font-size: 31px;
+  }
+
+  .banner1_button {
+    width: 42px;
+    height: 60px;
   }
 
   .banner2 {

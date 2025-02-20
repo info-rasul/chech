@@ -4,7 +4,7 @@ import { useRef } from 'react'; // Импортируем useRef
 // @ts-ignore
 import Banner1 from '../../images/banner1.jpg';
 // @ts-ignore
-import Group from '../../images/Group.png';
+import Group from '../../images/Group111.svg';
 
 const HeroSection = () => {
   const scrollToBottom = () => {

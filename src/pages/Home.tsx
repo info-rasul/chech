@@ -1,4 +1,4 @@
-import React, {useRef, useState} from "react";
+import React, {useEffect, useRef, useState} from "react";
 import Banner1 from "../components/Projects/Banner1";
 import Banner2 from "../components/Projects/Banner2";
 import Banner3 from "../components/Projects/Banner3";
@@ -19,6 +19,27 @@ const Home = () => {
     const containerRef = useRef<HTMLDivElement | null>(null);
     const [leftButton, setLeftButton] = useState(false);
     const [rightButton, setRightButton] = useState(false);
+    const [isFirst, setIsFirst] = useState(true);
+    const [isLast, setIsLast] = useState(false);
+
+    function logit() {
+        const first = document.getElementById('home');
+        const last = document.getElementById('last');
+
+        setIsFirst(first?.getBoundingClientRect()?.x >= 0)
+        setIsLast(last?.getBoundingClientRect()?.x < 1)
+    }
+
+    console.log('isFirst', isFirst)
+    useEffect(() => {
+        function watchScroll() {
+            containerRef.current?.addEventListener("scroll", logit);
+        }
+        watchScroll();
+        return () => {
+            containerRef.current?.removeEventListener("scroll", logit);
+        };
+    });
 
     const scrollToRight = () => {
         if (containerRef.current) {
@@ -62,14 +83,15 @@ const Home = () => {
         <div className="relative w-full h-full overflow-hidden">
             <div className="banner_button w-[100%] flex justify-between fixed bottom-[25px] z-50">
                 <button
-                    style={{opacity: leftButton ? 1 : 0}}
-                    className="w-[92px] h-[92px] bg-[#F00000] opacity-[.3] ml-[40px] cursor-pointer flex items-center justify-center rounded-[100px]"
+                    style={{width: !isFirst ? '92px' : 0}}
+                    className=" h-[92px] bg-[#F00000] opacity-[.3] ml-[40px] cursor-pointer flex items-center justify-center rounded-[100px]"
                     onClick={scrollToLeft}
                 >
                     <img src={ButtonLeft} alt="Group"/>
                 </button>
                 <button
-                    className="w-[92px] h-[92px] bg-[#F00000] mr-[40px] cursor-pointer flex items-center justify-center rounded-[100px]"
+                    style={{width: !isLast ? '92px' : 0}}
+                    className=" h-[92px] bg-[#F00000] mr-[40px] cursor-pointer flex items-center justify-center rounded-[100px]"
                     onClick={scrollToRight}
                 >
                     <img src={ButtonRight} alt="Group"/>
@@ -77,7 +99,7 @@ const Home = () => {
             </div>
             <div className="outer-wrapper scroll-container" ref={containerRef}>
                 <div className="wrapper textures" style={{display: "flex", backgroundImage: `url(${Textures})`,}}>
-                    <Banner1/>
+                    <Banner1 />
                     <Banner2/>
                     <Banner3/>
                     <Banner4/>

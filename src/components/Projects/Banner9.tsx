@@ -5,7 +5,7 @@ import Banner99 from '../../images/banner6.jpg'
 
 const Banner9 = () => {
   return (
-      <div className="section banner9 flex p-[70px] bg-[#F1EDDF] gap-[95px]">
+      <div className="section banner9 flex p-[70px] bg-[#F1EDDF] gap-[95px]" id="last">
           <div className="flex banner9_img">
               <img src={Banner99} alt="gnoto" className="h-[100%] w-[100%] object-cover"/>
           </div>

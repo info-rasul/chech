@@ -1,7 +1,7 @@
-// @ts-ignore
-import React from 'react';
+
 // @ts-ignore
 import Banner1 from '../../images/banner1.jpg';
+import React from "react";
 
 const HeroSection = () => {
   return (

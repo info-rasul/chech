@@ -181,8 +181,8 @@ body {
   }
 
   .banner9_title {
-    font-size: 60px;
-    line-height: 72px;
+    font-size: 52px;
+    line-height: 63px;
   }
 
   .banner9_subtitle {
@@ -212,7 +212,8 @@ body {
   }
 
   .banner_button {
-   display: none;
+   opacity: 0;
+    /*cursor: none;*/
   }
   .banner2 {
     width: 100vw!important;

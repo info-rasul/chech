@@ -9,7 +9,7 @@ import Banner7 from "../components/Projects/Banner7";
 import Banner8 from "../components/Projects/Banner8";
 import Banner9 from "../components/Projects/Banner9";
 // @ts-ignore
-import Textures from "../images/textures.png";
+import Textures from "../images/fon5.jpg";
 // @ts-ignore
 import Group from "../images/Group.png";
 
@@ -20,14 +20,15 @@ const Home = () => {
         if (containerRef.current) {
             const container = containerRef.current;
             const currentScroll = container.scrollTop;
-            const screenHeight = window.innerHeight;
+            const screenWidth = window.innerWidth;
             console.log(currentScroll, 'currentScroll');
-            console.log(screenHeight, 'screenHeight');
+            console.log(screenWidth, 'screenHeight');
 
             container.scrollTo({
-                top: currentScroll + screenHeight,
+                top: currentScroll + screenWidth,
                 behavior: "smooth",
             });
+
         }
     };
 

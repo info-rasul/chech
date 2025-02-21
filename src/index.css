@@ -189,9 +189,17 @@ body {
     font-size: 25px;
     line-height: 37.5px;
   }
+
+  br {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1000px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
   .banner1_desc {
     padding: 0;
     display: flex;
@@ -203,9 +211,8 @@ body {
     text-align: center;
   }
 
-  .banner1_button {
-    width: 62px;
-    height: 80px;
+  .banner_button {
+   display: none;
   }
   .banner2 {
     width: 100vw!important;
@@ -270,11 +277,6 @@ body {
 
   .banner1_subtitle {
     font-size: 31px;
-  }
-
-  .banner1_button {
-    width: 42px;
-    height: 55px;
   }
 
   .banner2 {
@@ -359,14 +361,15 @@ body {
   }
 }
 
-
 @media screen and (min-width: 1000px) {
   body {
     scroll-behavior: smooth;
   }
+
   html {
     scroll-behavior: smooth;
   }
+
   .wrapper {
     display: flex;
     flex-direction: row;
@@ -375,6 +378,7 @@ body {
     transform-origin: top left;
     position: relative;
   }
+
   .outer-wrapper {
     min-width: 100vh;
     height: 100vw;
@@ -382,18 +386,17 @@ body {
     transform-origin: top left;
     overflow-y: scroll;
     overflow-x: hidden;
-    position: absolute;
+    position: fixed;
     scroll-snap-type: y mandatory;
   }
 
   .section {
     width: 100vw;
     height: 100vh;
-    scroll-snap-align: start end;
-    /*scroll-snap-type: proximity;*/
+    scroll-snap-align: start;
   }
-
 }
+
 
 /*.bebas {
   font-family: "Bebas Neue", serif;
@@ -416,15 +419,6 @@ body {
   background-size: 100% 2px;
 }*/
 
-@media screen and (max-width: 600px) {
-  body {
-    scroll-behavior: none;
-  }
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
 html.has-scroll-smooth {
   overflow: hidden;
